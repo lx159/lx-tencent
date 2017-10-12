@@ -1,5 +1,5 @@
 {
-    "name": "luoxun159/tencent-test",
+    "name": "luoxun/tencent-test",
     "description": "广点通接口封装",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "pfinal/http": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Tencent\\": "src/"

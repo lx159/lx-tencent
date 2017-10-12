@@ -6,9 +6,19 @@ Author: lx159
 */
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Tencent\SayTencent;
+use Tencent\TencentApi;
 
-echo 1111;
+class aa extends TencentApi{
 
-echo SayTencent::Tencent(3333);
-echo 2222;
+    public function MakSig($app_id, $app_key, $test = '')
+    {
+        $app_id = "1111111";
+        $app_key = "2222222";
+        $test = "33333";
+        return parent::MakSig($app_id, $app_key, $test);
+    }
+}
+$aa = new aa();
+echo $aa->MakSig();
+//$aa->printOut();
+//echo $aa->printOut(1111);
