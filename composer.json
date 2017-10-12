@@ -1,7 +1,7 @@
 {
     "name": "luo-xun/tencent-test",
     "description": "广点通接口封装",
-    "license": "1.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "luo xun",
